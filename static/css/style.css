@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+	color: white;
+	font-size: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 30px;
+	margin-left: 150px;
+	margin-bottom: 20px;
+}
+
+h1 :hover{
+	background-color: chocolate;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-image: center;
+    background-size: cover;
+}
+
+
+h3{
+	color: white;
+	font-size: 30px;
+	margin-left: 370px;
+}
+nav{
+    width: 100%;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 290px;
+	list-style: none;
+
+
+}
+
+
+input{
+	height:20px;
+	width: 230px;
+	padding: 22px;
+	border: 1px;
+	border-radius: 5px;
+	font-family: "monserrat";
+	font-size: 15px;
+	/* background: rgb(11, 136, 219); */
+	color: rgb(17, 16, 16);
+	font-weight: bold;
+	
+}
+
+.nombre{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 240px ;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+
+li{
+    padding-left: 0%;
+    padding-bottom: 25px;
+    
+}
+
+li :hover{
+    color: rgb(20, 18, 19);
+	font-weight: bold;
+}
+
+
+button{
+	margin-left: 80px;
+	padding: 6px;
+	border: 8px;
+	border-radius: 5px;
+	color: rgb(153, 152, 160);
+	font-weight: bold;
+	cursor: pointer;
+	transition: 2s;
+	font-family: "monserrat";
+	font-size: 15px;
+	background: rgb(11, 31, 207);
+	position: relative;
+	overflow: hidden;
+}
+
