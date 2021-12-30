@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ML Temperatura</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+	<h1>Conversión de Celsius a Fahrenheit</h1>
+ 
+  <div>
+    <form action="{{ url_for('predict')}}"method="post">
+      <ul>
+        <li><input type="text" name="interview_score3" placeholder="Ingrese la temperatura en °C  " required="required" /></li>
+        <li><button type="submit" >Convertir</button></li>
+      </ul>
+    </form>
+  </div>
+  
+  
+  <h3> 
+    {{prediction_text}}
+  </h3>
+
+
+</body>
+</html>

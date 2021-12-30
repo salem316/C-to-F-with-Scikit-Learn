@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+	color: white;
+	font-size: 60px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	padding-top: 90px;
+	margin-left: 110px;
+	margin-bottom: 20px;
+}
+
+h1 :hover{
+	background-color: chocolate;
+}
+
+body,html{
+    height: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div{
+	display: flex;
+	overflow: hidden;
+}
+
+h3{
+	color: white;
+	font-size: 30px;
+	padding-top: 30px;
+	text-align: center;
+	padding-left: 55px;
+}
+form{
+    width: 100%;
+    font-weight: bold;
+	text-align: center;
+    padding-top: 30px;
+    padding-left: 40px;
+	list-style: none;
+
+}
+
+
+input{
+	font-size: 30px;
+	height:50px;
+	width: 430px;
+	padding: 22px;
+	border: 1px;
+	border-radius: 5px;
+	font-family: "monserrat";
+	
+	/* background: rgb(11, 136, 219); */
+	color: rgb(17, 16, 16);
+	font-weight: bold;
+	
+}
+
+.nombre{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 240px ;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+
+li{
+    padding-left: 0%;
+    padding-bottom: 25px;
+    
+}
+
+li :hover{
+    color: rgb(20, 18, 19);
+	font-weight: bold;
+}
+
+
+button{
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 5px;
+	border: 8px;
+	border-radius: 5px;
+	color: rgb(153, 152, 160);
+	font-weight: bold;
+	cursor: pointer;
+	transition: 2s;
+	font-family: "monserrat";
+	font-size: 40px;
+	background: rgb(11, 31, 207);
+	position: relative;
+	overflow: hidden;
+}
+
